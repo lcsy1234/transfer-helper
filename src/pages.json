@@ -1,0 +1,54 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "对话"
+			}
+		},
+		{
+			"path": "pages/history/index",
+			"style": {
+				"navigationBarTitleText": "历史记录"
+			}
+		},
+		{
+			"path": "pages/myInfo/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#d2ecf9",
+		"backgroundColor": "#F8F8F8",
+		"fontSize": "10px"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "1296DB",
+		"backgroundColor": "#d2ecf9",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "对话",
+				"iconPath": "static/images/chat.png",
+				"selectedIconPath": "static/images/blue/chatBlue.png"
+			},
+			{
+				"pagePath": "pages/history/index",
+				"text": "记录",
+				"iconPath": "static/images/history.png",
+				"selectedIconPath": "static/images/blue/historyBlue.png"
+			},
+			{
+				"pagePath": "pages/myInfo/index",
+				"text": "我的",
+				"iconPath": "static/images/my.png",
+				"selectedIconPath": "static/images/blue/myBlue.png"
+			}
+		]
+	}
+}
